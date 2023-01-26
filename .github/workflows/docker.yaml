@@ -5,7 +5,7 @@ on:
     - main
 
 jobs:
-  test:
+  docker:
     strategy:
       matrix:
         go-version: [ 1.19.x ]
